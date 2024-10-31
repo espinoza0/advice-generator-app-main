@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --Light-Cyan: hsl(193, 38%, 86%);
+    --Neon-Green: hsl(150, 100%, 66%);
+
+    --Grayish-Blue: hsl(217, 19%, 38%);
+    --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+    --Dark-Blue: hsl(218, 23%, 16%);
+}
+body{
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+    background-color: var(--Dark-Blue);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    max-width: 80rem;
+    margin: 0 auto;
+}
+.card{
+    width: 50rem;
+    height: 25rem;
+    border-radius: .5rem;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--Dark-Grayish-Blue);
+    box-shadow: rgba(29, 29, 29, 0.2) 0px 7px 29px 0px;
+}
+.card h4, span#adviceId{
+    color: var(--Neon-Green);
+    letter-spacing: .2rem;
+}
+.card p{
+    font-size: 2rem;
+    text-align: center;
+    color: var(--Light-Cyan);
+}
+
+div.btnDice{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 45px;
+    align-items: center;
+    border-radius: 50%;
+    height: 45px;
+    padding: .5rem;
+    bottom: -15px;
+    cursor: pointer;
+    background-color: var(--Neon-Green);
+}
+
