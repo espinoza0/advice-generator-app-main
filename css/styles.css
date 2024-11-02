@@ -27,9 +27,9 @@ body{
 }
 .card{
     width: 100%;
-    max-width: 43rem;
+    max-width: 38rem;
     margin: 0 auto;
-    height: 26rem;
+    height: 22.5rem;
     border-radius: 1rem;
     display: flex;
     position: relative;
